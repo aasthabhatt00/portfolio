@@ -22,7 +22,7 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I am passionate about creating user-friendly and visually appealing
-            software products that meet the needs of end-users. BWAHAHA!
+            software products that meet the needs of end-users.
           </p>
         </div>
       </div>
