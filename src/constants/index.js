@@ -43,7 +43,7 @@ import {
   const services = [
     {
       title: "Product Manager",
-      icon: manager,
+      icon: mobile,
     },
     {
       title: "Web Developer",
@@ -51,11 +51,11 @@ import {
     },
     {
       title: "Front-end developer",
-      icon: frontend,
+      icon: backend,
     },
     {
       title: "UX designer",
-      icon: designer,
+      icon: creator,
     },
   ];
   
