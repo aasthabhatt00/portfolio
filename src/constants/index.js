@@ -79,8 +79,8 @@ import {
     },
     {
       
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "web",
+      icon: web,
     },
     {
       name: "React JS",
@@ -165,35 +165,35 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
+        "I believed that creating a website as stunning as our product was unattainable, but Aastha proved me otherwise. Additionally, she proved to be an excellent product manager who skillfully led our team.",
+      name: "Samyak Piya",
+      designation: "Full-stack developer",
+      company: "CatSafe",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
+        "I have had the pleasure of working with numerous web developers, but I have never come across one who is as genuinely invested in their clients' success as Aastha. She goes above and beyond to ensure that her clients are satisfied, and her dedication is truly admirable.",
+      name: "Bishwas Bhatt",
+      designation: "Software engineering intern",
+      company: "Bastin Solutions",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
+        "Aastha's website optimization efforts resulted in huge increase in our website traffic, and we cannot express our gratitude enough. Their work has had a significant impact on our online presence, and we are thrilled with the results.",
+      name: "Jhonson Bokati",
+      designation: "Tech Lead",
+      company: "Bank of America",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "CatSafe",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based mental health support platform for university of Kentucky Students.",
       tags: [
         {
           name: "react",
@@ -212,9 +212,9 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Gearball Model",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Created and implemented data structures to represent a Gear ball, a more complex version of the traditional Rubik's Cube that is spherical.",
       tags: [
         {
           name: "react",
@@ -233,9 +233,9 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Socket Server",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Built a Python Socket Server that can manage several incoming requests at once.",
       tags: [
         {
           name: "nextjs",
