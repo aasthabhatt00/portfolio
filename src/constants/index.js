@@ -61,10 +61,6 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
       name: "CSS 3",
       icon: css,
     },
@@ -73,44 +69,53 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "git",
+      icon: git,
+    },
+    {
+  
+      name: "HTML 5",
+      icon: html,
+    },
+    {
+      
+      name: "Redux Toolkit",
+      icon: redux,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
+      name: "docker",
+      icon: docker,
     },
     {
       name: "MongoDB",
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
+    
       name: "figma",
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+  
+      name: "TypeScript",
+      icon: typescript,
+    },
+    {
+      name: "Three JS",
+      icon: threejs,
+    },
+    {
+  
+      name: "Node JS",
+      icon: nodejs,
     },
   ];
   
