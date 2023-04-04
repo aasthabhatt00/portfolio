@@ -6,7 +6,9 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-
+// template_v82i6sh
+//service_yptg0x5
+//8hQxBO5D4u6Hnj-UH
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -33,21 +35,21 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        "template_v82i6sh",
+        "service_yptg0x5",
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Aastha",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "Bhattaastha111@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        "8hQxBO5D4u6Hnj-UH"
       )
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          alert("Thank you for reaching out. I will get back to you asap.");
 
           setForm({
             name: "",
@@ -59,7 +61,7 @@ const Contact = () => {
           setLoading(false);
           console.error(error);
 
-          alert("Ahh, something went wrong. Please try again.");
+          alert("Something went wrong. Please try again .");
         }
       );
   };
@@ -81,7 +83,7 @@ const Contact = () => {
           className="mt-12 flex flex-col gap-8"
         >
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Your Name</span>
+            <span className="text-white font-medium mb-4">Name</span>
             <input
               type="text"
               name="name"
@@ -92,7 +94,7 @@ const Contact = () => {
             />
           </label>
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Your email</span>
+            <span className="text-white font-medium mb-4">Email</span>
             <input
               type="email"
               name="email"
@@ -103,7 +105,7 @@ const Contact = () => {
             />
           </label>
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Your Message</span>
+            <span className="text-white font-medium mb-4">Your message</span>
             <textarea
               rows={7}
               name="message"
